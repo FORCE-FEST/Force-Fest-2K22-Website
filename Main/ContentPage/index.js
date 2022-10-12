@@ -1,0 +1,2 @@
+var width = screen.availWidth;
+if (width < 1200 && width >= 0){alert("Your device width is less than the recommended width. For the best view, consider switching to a device with a larger screen (Like a laptop or desktop).")};

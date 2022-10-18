@@ -585,7 +585,7 @@ p{
      font-family: 'Quicksand' !important;
   }
   .content_text{
-    background: #4E81D6;
+    background-image: url(./bg.png);
     transform: rotateY(180deg)
   }
   .hovert:hover .event_contentHover{

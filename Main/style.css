@@ -409,7 +409,7 @@ video {
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 20px;
-    color: #E5E5E5;
+  color: #E5E5E5;
 }
 @media all and (max-width:700px){
 	.myP {

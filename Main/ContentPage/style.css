@@ -253,6 +253,18 @@ html{
   padding: 0;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-size: 62.5%;
+  font-size: 5px; */
+  overflow: overlay;
+  background-color: #111115 !important;
+  overflow-x: hidden;
+}
+
 a {
   align-items: center;
   align-self: center;

@@ -2464,3 +2464,37 @@ footer h2{
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
+
+.ques4 {
+  color: #E5E5E5;
+  font-size: 60px;
+  position: relative;
+  width: 440px;
+  background: #111115;
+  margin: 0 auto;
+
+}
+.ques4:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: #E5E5E5;
+  background: #111115;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+.ques4:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: #E5E5E5;
+  background: #111115;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
